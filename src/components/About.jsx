@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import Spline from '@splinetool/react-spline';
 import { motion, useInView } from 'framer-motion';
 
 function About() {
@@ -12,7 +11,7 @@ function About() {
       className='w-full min-h-screen text-center bg-black px-4 md:px-10 py-10'
       ref={ref}
     >
-      {/* Section Heading */}
+      
       <motion.h1
         className='text-3xl md:text-5xl font-bold py-6 text-white'
         initial={{ opacity: 0, y: 50 }}
@@ -53,18 +52,6 @@ function About() {
             ))}
           </div>
         </motion.div>
-
-        {/* Spline 3D Visual */}
-        {/* <motion.div
-          className="w-full md:w-1/2 h-[300px] sm:h-[350px] md:h-[450px] mb-6 md:mb-0 overflow-hidden flex items-center justify-center rounded-full"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={isInView ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 1, delay: 0.4 }}
-        >
-          <div className="scale-[1.6] md:scale-[1.8] lg:scale-[2] origin-center w-full h-full">
-            <Spline scene="https://prod.spline.design/XOgnnfHu8mPTE6j9/scene.splinecode" />
-          </div>
-        </motion.div> */}
 
       </div>
     </section>
