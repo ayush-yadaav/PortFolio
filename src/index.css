@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* body, * {
+  /* cursor: none !important; */
+  /* background-color: rgb(189, 136, 136);
+   */
+   /* background-color: black; */
+
+/* Hero.css */
+
+.hero-bg {
+  background: radial-gradient(#d7cfcf11 1px,  1px);
+  background-size: 20px 20px;
+  animation: floatDots 60s linear infinite;
+}
+
+@keyframes floatDots {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+.text-glow {
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+  transition: text-shadow 0.3s ease-in-out;
+}
