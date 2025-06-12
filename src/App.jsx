@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="bg-black min-h-screen w-full text-white">
-      {/* <AnimatedCursor
+      <AnimatedCursor
         innerSize={8}
         outerSize={35}
         color="0, 255, 255"  // bright blue
@@ -20,7 +20,7 @@ function App() {
         innerScale={0.7}
         outerScale={1.5}
         trailingSpeed={6}
-      /> */}
+      />
     <Navbar />
     <Hero />
     <About />
