@@ -2,6 +2,8 @@ import noteNest from '../assets/image/notenest.jpg'
 import ticTacToe from '../assets/image/tictactoe.jpg'
 import gameMania from '../assets/image/gamemania.jpg'
 import staffManegment from '../assets/image/staff.png'
+import recipeFinder from '../assets/image/recipefinder.png'
+
 import cssPng from '../assets/skill/css.png'
 import ejsPng from '../assets/skill/ejs.png'
 import gitPng from '../assets/skill/git.png'
@@ -51,6 +53,15 @@ export const  projects = [
     image: staffManegment,
     link: "https://yourstore.com",
     github: "https://github.com/ayush-yadaav/Staff-Manegment.git"
+  },
+  {
+    id: 5,
+    title: "Recipe Finder",
+    content: "A responsive React app to find recipes instantly by name or cuisine. It shows ingredients, instructions, and uses Spoonacular API with clean UI and modals.",
+    full: "Discover recipes for your favorite meals instantly. Whether you're craving Indian food or global cuisine, simply search by name or category to view detailed ingredients and easy-to-follow instructions. A simple and helpful way to find inspiration and cook something amazing at home.",
+    image: recipeFinder,
+    link: "https://recipe-finder-ten-kohl.vercel.app/",
+    github: "https://github.com/ayush-yadaav/Recipe-Finder.git"
   },
   // Add more projects...
 ];
