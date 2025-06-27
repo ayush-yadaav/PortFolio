@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body, * {
+
+  cursor: none !important;
+  }
+
+
+
