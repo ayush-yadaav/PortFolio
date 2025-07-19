@@ -63,7 +63,6 @@ function Contact() {
 
       {/* Form Container */}
       <motion.div
-
         className="w-full md:w-[45%] border-2 border-slate-800 p-6 rounded-2xl shadow-lg"
         variants={fadeUp}
         initial="hidden"

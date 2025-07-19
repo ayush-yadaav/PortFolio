@@ -3,6 +3,7 @@ import ticTacToe from '../assets/image/tictactoe.jpg'
 import gameMania from '../assets/image/gamemania.jpg'
 import staffManegment from '../assets/image/staff.png'
 import recipeFinder from '../assets/image/recipefinder.png'
+import genEmail from '../assets/image/genemail.png'
 
 import cssPng from '../assets/skill/css.png'
 import ejsPng from '../assets/skill/ejs.png'
@@ -62,6 +63,14 @@ export const  projects = [
     image: recipeFinder,
     link: "https://recipe-finder-ten-kohl.vercel.app/",
     github: "https://github.com/ayush-yadaav/Recipe-Finder.git"
+  },
+  {
+    id: 6,
+    title: "Gen Email",
+    content: "A smart email generation tool built with React that leverages the Gemini API to create context-aware, professionally written emails. Users can input a brief message or prompt, and the system instantly generates polished email drafts suitable for various use cases like job applications, formal communication, or casual responses.",
+    image: genEmail,
+    link: "gen-email-five.vercel.app",
+    github: "https://github.com/ayush-yadaav/GenEmail"
   },
   // Add more projects...
 ];
