@@ -64,15 +64,14 @@ export const  projects = [
     link: "https://recipe-finder-ten-kohl.vercel.app/",
     github: "https://github.com/ayush-yadaav/Recipe-Finder.git"
   },
-  {
-    id: 6,
+ id: 6,
     title: "Gen Email",
-    content: "A smart email generation tool built with React that leverages the Gemini API to create context-aware, professionally written emails. Users can input a brief message or prompt, and the system instantly generates polished email drafts suitable for various use cases like job applications, formal communication, or casual responses.",
+    content: "GenMail is a smart and intuitive web application designed to help users instantly generate professional, personalized emails using AI.",
+    full: "A smart email generation tool built with React that leverages the Gemini API to create context-aware, professionally written emails. Users can input a brief message or prompt, and the system instantly generates polished email drafts suitable for various use cases like job applications, formal communication, or casual responses.",
     image: genEmail,
     link: "gen-email-five.vercel.app",
     github: "https://github.com/ayush-yadaav/GenEmail"
-  },
-  // Add more projects...
+
 ];
 
 export const skills = [
