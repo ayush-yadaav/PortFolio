@@ -4,6 +4,7 @@ import gameMania from '../assets/image/gamemania.jpg'
 import staffManegment from '../assets/image/staff.png'
 import recipeFinder from '../assets/image/recipefinder.png'
 import genEmail from '../assets/image/genemail.png'
+import newsSummarizer from '../assets/image/newssummarizer.png'
 
 import cssPng from '../assets/skill/css.png'
 import ejsPng from '../assets/skill/ejs.png'
@@ -64,14 +65,24 @@ export const  projects = [
     link: "https://recipe-finder-ten-kohl.vercel.app/",
     github: "https://github.com/ayush-yadaav/Recipe-Finder.git"
   },
- id: 6,
+  {
+    id: 6,
     title: "Gen Email",
     content: "GenMail is a smart and intuitive web application designed to help users instantly generate professional, personalized emails using AI.",
     full: "A smart email generation tool built with React that leverages the Gemini API to create context-aware, professionally written emails. Users can input a brief message or prompt, and the system instantly generates polished email drafts suitable for various use cases like job applications, formal communication, or casual responses.",
     image: genEmail,
     link: "gen-email-five.vercel.app",
     github: "https://github.com/ayush-yadaav/GenEmail"
-
+  },
+  {
+    id: 7,
+    title: "News Summarizer",
+    content: "News Summarizer is your smart AI tool to stay updated quickly. You can summarize any news instantly by entering text or a URL. The platform also provides the latest headlines in the News Section, keeping you informed with fresh and reliable updates. You can save your favorite summaries to the Saved Summaries page for later reading and easily manage your details through your Profile Section. With secure user authentication and complete data privacy, your information stays protected. Stay informed, save time, and read smarter with News Summarizer — your shortcut to smarter news consumption.",
+    image: newsSummarizer,
+    link: "https://news-summarizer-frontend-sigma.vercel.app",
+    github: "https://github.com/ayush-yadaav/News-Summarizer-Frontend.git"
+  },
+  // Add more projects...
 ];
 
 export const skills = [
